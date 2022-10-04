@@ -6,6 +6,7 @@
 macro (ecbuild_declare_project)
 
   include (GNUInstallDirs)
+  set  (INSTALL_DATA_DIR share/${PROJECT_NAME})
   set  (PROJECT_TARGETS_FILE "${PROJECT_BINARY_DIR}/${PROJECT_NAME}-targets.cmake")
   file (REMOVE ${PROJECT_TARGETS_FILE})
 

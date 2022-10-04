@@ -11,6 +11,7 @@ file (MAKE_DIRECTORY ${_ufs_esma_etc})
 
 # set for compatibility
 set (esma_include ${_ufs_esma_include})
+set (esma_etc     ${_ufs_esma_etc})
 
 macro (esma_set_this)
 

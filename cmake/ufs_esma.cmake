@@ -3,6 +3,12 @@
 # UFS porting of ESMA_cmake package.
 # See original version at: https://github.com/GEOS-ESM/ESMA_cmake (tag: v3.4.2)
 
+# esma_compiler_flags
+include (ufs_esma_compiler_flags)
+
+# esma_openmp
+include (ufs_esma_openmp)
+
 # esma_set_this
 include (ufs_esma_set_this)
 
