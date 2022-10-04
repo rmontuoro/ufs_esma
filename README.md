@@ -1,7 +1,7 @@
 # UFS ESMA
 
 This repository contains a simplified implementation of CMake
-functions and macros required to build GOCART within the UFS.
+functions and macros required to build GOCART and MAPL for the UFS.
 
 The included APIs eliminate GOCART's dependency on ESMA_cmake
 and ecBuild packages required to build GEOS-5. The code has
